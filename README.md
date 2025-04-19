@@ -1,4 +1,4 @@
-Motion Detection using OpenCV
+##Motion Detection using OpenCV
 This project implements motion detection by comparing a static background frame with either a test image or video stream. It highlights areas of motion by drawing bounding boxes around moving objects. This can be used for basic surveillance or object detection tasks.
 
 🧠 Features
