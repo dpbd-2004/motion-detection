@@ -1,7 +1,8 @@
-##Motion Detection using OpenCV
+**Motion Detection using OpenCV**
+
 This project implements motion detection by comparing a static background frame with either a test image or video stream. It highlights areas of motion by drawing bounding boxes around moving objects. This can be used for basic surveillance or object detection tasks.
 
-🧠 Features
+**🧠 Features**
 Load and preprocess static images
 
 Image subtraction to detect changes
@@ -12,7 +13,7 @@ Contour detection for bounding box drawing
 
 Real-time motion detection from video files or webcam
 
-🛠️ Technologies Used
+**🛠️ Technologies Used**
 Python
 
 OpenCV
@@ -23,7 +24,7 @@ Matplotlib
 
 imutils
 
-📸 Image-based Detection
+**📸 Image-based Detection**
 The script compares two images (static.png and test.png) to find differences (i.e., motion or object change) and visualizes them.
 
 Steps:
@@ -50,7 +51,7 @@ Thresholded binary image
 
 Bounding boxes around detected changes
 
-🎥 Video-based Detection
+**🎥 Video-based Detection**
 You can also use a video file (or webcam) to detect motion in real time.
 
 Steps:
